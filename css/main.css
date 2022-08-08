@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+}
+
+.lst {
+    list-style-type: none;
+}
+
+.menu {
+
+}
+
+.image img {
+    width: 100%;
+    margin: auto;
+}
+.image > a {
+    padding: 1.5rem;
+}
+
+ul.service {
+    justify-content: space-between;
+}
+
+ul.service > li {
+    margin: auto;
+}
+
+ul.service > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 0.8rem;
+    color: rgb(0, 81, 255);
+}
+
+ul.search {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search:first-child > a > i {
+    color: rgb(0, 81, 255);
+}
+
