@@ -3,6 +3,49 @@
     justify-content: center;
     align-items: center;
 }
+.lst {
+    list-style-type: none;
+}
+
+.image img {
+    width: 100%;
+    margin: auto;
+}
+.image > a {
+    padding: 1.5rem;
+}
+
+ul.service {
+    justify-content: space-between;
+}
+
+ul.service > li {
+    margin: auto;
+}
+
+ul.service > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 0.8rem;
+    color: rgb(0, 81, 255);
+    transition: all 0.8s;
+    border-radius: 15px;
+}
+
+ul.service > li > a:hover {
+    color: white;
+    background-color: lightblue;
+}
+
+ul.search {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search:first-child > a > i {
+    color: rgb(0, 81, 255);
+}
 .gender, .gender input {
     width: auto !important;
 }
