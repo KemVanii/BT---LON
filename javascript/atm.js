@@ -1,6 +1,4 @@
 function validate() {
-    let error = ""
-
     let fname = document.getElementById("fname")
     if(fname.value === "")
     {
