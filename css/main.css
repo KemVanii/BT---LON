@@ -34,9 +34,13 @@
     text-decoration: none;
     display: block;
     border-radius: 5px;
+    transition: all 0.6s;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {
+    background-color: darkblue;
+    color: white;
+}
   
   .dv:hover .dropdown-content {display: block;}
 
@@ -53,7 +57,7 @@ ul.service > li > a {
     text-decoration: none;
     padding: 1rem 0.8rem;
     color: rgb(0, 81, 255);
-    transition: all 0.8s;
+    transition: all 0.5s;
     border-radius: 15px;
 }
 
