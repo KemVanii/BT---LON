@@ -14,6 +14,32 @@
     padding: 1.5rem;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dv:hover .dropdown-content {display: block;}
+
 ul.service {
     justify-content: space-between;
 }
@@ -101,17 +127,31 @@ h2 {
 .serviceUi {
     width: 100%;
     text-align: center;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+   
+}
+
+.serviceMenu {
+    width: 100%;
 }
 
 .serviceMenu a {
-    background-color: lightblue;
+    background-color: darkblue;
     display: block;
     padding: 1.5rem 3rem;
     border: 1px solid white;
     border-radius: 15px;
     width: 100%;
     margin: 1rem auto;
+    text-decoration: none;
+    color: white;
 }
+
 footer {
     margin-top: 5rem;
     border-top: 2px lightblue;
